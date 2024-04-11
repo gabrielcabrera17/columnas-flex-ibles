@@ -1,0 +1,24 @@
+.row {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+}
+.col,.col-2,.col-3{
+    font-size: 1.2rem;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(58, 143, 143);
+    flex: 1;
+}
+.col-2{
+    flex: 2;
+}
+.col-3{
+    flex: 3;
+}
+
+
